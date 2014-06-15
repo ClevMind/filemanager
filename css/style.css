@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,cyrillic);
+
+body
+{
+	font-family: 'Noto Sans', sans-serif;
+	color: #363636;
+}
+
+
+#header
+{
+	width: 300px;
+	margin: 0 auto;
+	padding: 45px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+#main
+{
+	display: none;
+}
+
+#main_table
+{
+	width: 100%;
+	overflow: hidden;
+	padding: 5px;
+	text-align: center;
+	background: #EC6400;
+	border-spacing: 1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.39);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.39);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.39);
+}
+
+#main_table td
+{
+	padding: 5px 0px 10px 5px;
+	background: #fff;
+
+}
+
+.first_td
+{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.type_folder
+{
+	width: 32px;
+	height: 32px;
+	background: url(../img/folder.png) ;
+	float: left;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.type_file_txt
+{
+	width: 32px;
+	height: 32px;
+	background: url(../img/file_txt.png) ;
+	float: left;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.type_file
+{
+	width: 32px;
+	height: 32px;
+	background: url(../img/file.png) ;
+	float: left;
+	margin-right: 15px;
+}
+
+#go_back
+{
+	width: 24px;
+	height: 24px;
+	background: url(../img/back.png) no-repeat;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #C4C4C4;
+}
+
+#go_back:hover
+{
+	border: 1px solid #EC6400;
+}
+
+#file_name
+{
+	margin-top: -5px;
+}
+
+#load
+{
+	width: 25px;
+	height: 25px;
+	background: url(../img/load.GIF) no-repeat;
+	float: left;
+	margin: 0 5px 0 5px;
+	display: none;
+}
+
+#file_content
+{
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(39, 195, 255, 0.13);
+	-moz-box-shadow:    0px 0px 18px 0px rgba(39, 195, 255, 0.13);
+	box-shadow:         0px 0px 18px 0px rgba(39, 195, 255, 0.13);
+}
+
+#path
+{
+	color: #3F3F3F;
+	height: 20px;
+	padding: 5px 0 5px 5px;
+	margin-bottom: 10px;
+	background: #FF7E20;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(39, 195, 255, 0.13);
+	-moz-box-shadow:    0px 0px 18px 0px rgba(39, 195, 255, 0.13);
+	box-shadow:         0px 0px 18px 0px rgba(39, 195, 255, 0.13);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}

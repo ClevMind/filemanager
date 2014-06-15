@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'monofurregular';
+    src: url('monof55.eot');
+    src: url('monof55.eot?#iefix') format('embedded-opentype'),
+         url('monof55.woff') format('woff'),
+         url('monof55.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'monofur__italic';
+    src: url('monof56.eot');
+    src: url('monof56.eot?#iefix') format('embedded-opentype'),
+         url('monof56.woff') format('woff'),
+         url('monof56.ttf') format('truetype');
+    font-weight: normal;
+
+}
